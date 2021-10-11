@@ -1,0 +1,6 @@
+define character :default = "Default", "./Assets/Default.png", "Assets/Barks/Default_Greeting.mp3"
+
+<label_start>
+#this is how you comment
+say :default "Hello! This is a test."
+<finish>

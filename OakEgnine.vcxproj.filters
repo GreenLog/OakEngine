@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Source\OEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FrameRateController.h">
+      <Filter>Engine\Systems\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TimeHandler.h">
+      <Filter>Engine\Systems\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OEGameLoop.h">
+      <Filter>Engine\Systems\GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KeyboardInput.h">
+      <Filter>Engine\PlayerInput</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MouseInput.h">
+      <Filter>Engine\PlayerInput</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneManager.h">
+      <Filter>Engine\Systems\GameLoop\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Engine\Systems\GameLoop\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shapes.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameWindow.h">
+      <Filter>Engine\Systems\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventHandler.h">
+      <Filter>Engine\PlayerInput\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component.h">
+      <Filter>Engine\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject.h">
+      <Filter>Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite.h">
+      <Filter>Engine\GameObject\Component\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WindowEvents.h">
+      <Filter>Engine\PlayerInput</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector3D.h">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector2D.h">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Matrix2D.h">
+      <Filter>Engine\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Transform.h">
+      <Filter>Engine\GameObject\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tiles.h">
+      <Filter>Engine\Systems\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerController.h">
+      <Filter>Engine\GameObject\Component\PlayerContoller</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteSheet.h">
+      <Filter>Engine\GameObject\Component\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteText.h">
+      <Filter>Engine\GameObject\Component\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI.h">
+      <Filter>External\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcornScript.h">
+      <Filter>Engine\AcornScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcornActions.h">
+      <Filter>Engine\AcornScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcornCharacters.h">
+      <Filter>Engine\AcornScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcornScriptUtils.h">
+      <Filter>Engine\AcornScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcornScriptVariables.h">
+      <Filter>Engine\AcornScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils.h">
+      <Filter>Engine\Systems\GameLoop\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collisions.h">
+      <Filter>Engine\GameObject\Component\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AudioEngine.h">
+      <Filter>Engine\Systems\AudioEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoolDummy.h">
+      <Filter>Engine\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene_Hub.h">
+      <Filter>External\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGuiCore.h">
+      <Filter>Engine\Systems\Editor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui_sdl.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="dev_lib\include\imgui_impl_sdl.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="dev_lib\include\imgui_internal.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="dev_lib\include\imgui.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="dev_lib\include\imgui_freetype.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="dev_lib\include\imgui_impl_opengl3.h">
+      <Filter>External</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\OEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FrameRateController.cpp">
+      <Filter>Engine\Systems\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TimeHandler.cpp">
+      <Filter>Engine\Systems\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OEGameLoop.cpp">
+      <Filter>Engine\Systems\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KeyboardInput.cpp">
+      <Filter>Engine\PlayerInput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MouseInput.cpp">
+      <Filter>Engine\PlayerInput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneManager.cpp">
+      <Filter>Engine\Systems\GameLoop\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
+      <Filter>Engine\Systems\GameLoop\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shapes.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameWindow.cpp">
+      <Filter>Engine\Systems\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EventHandler.cpp">
+      <Filter>Engine\PlayerInput\EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component.cpp">
+      <Filter>Engine\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject.cpp">
+      <Filter>Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite.cpp">
+      <Filter>Engine\GameObject\Component\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WindowEvents.cpp">
+      <Filter>Engine\PlayerInput</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vector3D.cpp">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vector2D.cpp">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Matrix2D.cpp">
+      <Filter>Engine\Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Transform.cpp">
+      <Filter>Engine\GameObject\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tiles.cpp">
+      <Filter>Engine\Systems\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerController.cpp">
+      <Filter>Engine\GameObject\Component\PlayerContoller</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteSheet.cpp">
+      <Filter>Engine\GameObject\Component\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteText.cpp">
+      <Filter>Engine\GameObject\Component\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI.cpp">
+      <Filter>External\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AcornScript.cpp">
+      <Filter>Engine\AcornScript</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AcornActions.cpp">
+      <Filter>Engine\AcornScript</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AcornCharacters.cpp">
+      <Filter>Engine\AcornScript</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AcornScriptUtils.cpp">
+      <Filter>Engine\AcornScript</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AcornScriptVariables.cpp">
+      <Filter>Engine\AcornScript</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils.cpp">
+      <Filter>Engine\Systems\GameLoop\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collisions.cpp">
+      <Filter>Engine\GameObject\Component\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AudioEngine.cpp">
+      <Filter>Engine\Systems\AudioEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BoolDummy.cpp">
+      <Filter>Engine\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene_Hub.cpp">
+      <Filter>External\Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGuiCore.cpp">
+      <Filter>Engine\Systems\Editor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GLAD\glad.c">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\imgui_sdl.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="dev_lib\include\imgui_impl_sdl.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="dev_lib\include\imgui_widgets.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="dev_lib\include\imgui.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="dev_lib\include\imgui_demo.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="dev_lib\include\imgui_draw.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="dev_lib\include\imgui_freetype.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="dev_lib\include\imgui_impl_opengl3.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{48863be9-fea1-4b7a-a72b-c4fa670733a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stub">
+      <UniqueIdentifier>{af7ba69e-f00a-44af-8c76-e8974933a18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\PlayerInput">
+      <UniqueIdentifier>{17634daa-a529-4f52-b0b0-2f9f4ec601dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics">
+      <UniqueIdentifier>{f3c46eb1-8c25-43e1-b677-11c0c51c4e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameObject">
+      <UniqueIdentifier>{1046610b-0991-4d32-91fb-01b936a9566d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameObject\Component">
+      <UniqueIdentifier>{0314b004-f93a-4c3f-b845-635eac9bd02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\PlayerInput\EventHandler">
+      <UniqueIdentifier>{436730b5-64c8-4776-9e03-b0eb9f17ec0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math">
+      <UniqueIdentifier>{bb5afa53-065f-4ad7-a1b0-00333f615d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math\Vector">
+      <UniqueIdentifier>{67440890-a267-4681-a64c-c40fa5a7d2ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\RayCaster">
+      <UniqueIdentifier>{43a938b2-9299-4c51-9b0f-e97c54347864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math\Matrix">
+      <UniqueIdentifier>{4009d66e-70a5-4492-8d95-2f91d328cb2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameObject\Component\Sprite">
+      <UniqueIdentifier>{81d06df9-227d-4abd-a6be-c3440900b51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameObject\Component\Transform">
+      <UniqueIdentifier>{092470ba-23b6-4afb-936e-4d0c2c86aa92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Systems">
+      <UniqueIdentifier>{4967843a-7ce9-45c1-995c-d53f618e41eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Systems\GameLoop">
+      <UniqueIdentifier>{be2c5a52-3cd6-49a9-94d7-7ecd0df14e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Systems\GameLoop\Scenes">
+      <UniqueIdentifier>{694f1941-c3e9-4b0c-aac9-a0c1fd13b885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Systems\Window">
+      <UniqueIdentifier>{b456ce18-ae0e-425a-912e-958f06266dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Systems\Tiles">
+      <UniqueIdentifier>{160ebdb8-32b2-4204-85e8-51bedbb46e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameObject\Component\PlayerContoller">
+      <UniqueIdentifier>{3e89ba98-b54c-4d8d-9c8d-d28d09fa59c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\AcornScript">
+      <UniqueIdentifier>{54bb75bc-2987-4c15-bd33-13f27346352d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Systems\GameLoop\Misc">
+      <UniqueIdentifier>{e9a0e571-3b9c-44af-80b5-aa8e2e13349d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameObject\Component\Collisions">
+      <UniqueIdentifier>{19684ac6-5316-4b74-ac10-e32d02d434ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Systems\Time">
+      <UniqueIdentifier>{385d136b-ebe5-4331-ac1e-a698b7fcef9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Systems\AudioEngine">
+      <UniqueIdentifier>{278f3d15-a316-4a9c-af0a-6003484dab5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Systems\Editor">
+      <UniqueIdentifier>{4dac09d1-fd8b-46fd-9fc7-33dfff8f0126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Systems\Editor\ImGui">
+      <UniqueIdentifier>{a45fc229-8f1c-491e-8b12-aee04bd6e79e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{14900988-5f6c-4ff9-975d-a5c2584b1161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Game">
+      <UniqueIdentifier>{fb8c4ee2-a870-45c6-a639-52d86ced1084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Game\Scenes">
+      <UniqueIdentifier>{beb51e0e-2fdb-4375-94ac-a6df0fbbd578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Game\UI">
+      <UniqueIdentifier>{98d36a17-dacf-4948-8b1b-76e3ea0c902c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Game\Scripts">
+      <UniqueIdentifier>{34f7faef-6d38-4ddd-8495-3d9347336485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Game\TribeGame">
+      <UniqueIdentifier>{a6922a14-cf25-4f70-9653-ccbd07145ac0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
